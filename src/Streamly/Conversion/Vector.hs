@@ -5,10 +5,7 @@ import Streamly
 import Data.Vector (Vector)
 import Streamly.Internal.Data.Fold.Types (Fold(..))
 import Streamly.Internal.Data.Unfold.Types (Unfold(..))
--- XXX This import does not work with the current version
--- XXX Streams/* should be moved to Internal/*
--- XXX Currently compiling with a modified Streamly
-import Streamly.Streams.StreamD.Type (Step(..))
+import Streamly.Internal.Data.Stream.StreamD.Type (Step(..))
 
 import qualified Data.Vector as V
 import qualified Streamly.Prelude as S
